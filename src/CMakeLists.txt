@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 set(HEADER_LIST "${EmbeddedOs_SOURCE_DIR}/include/EmbeddedOs/foo.hpp")
+=======
+set(HEADER_LIST "../include/EmbeddedOs/foo.hpp")
+>>>>>>> bdba3dd (Fix CMakeLists)
 
 add_library(EmbeddedOs_library foo.cpp ${HEADER_LIST})
 
