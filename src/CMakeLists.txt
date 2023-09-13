@@ -1,4 +1,4 @@
-set(HEADER_LIST "${EmbeddedOs_SOURCE_DIR}/include/EmbeddedOs/lib.hpp")
+set(HEADER_LIST "${EmbeddedOs_SOURCE_DIR}/include/EmbeddedOs/foo.hpp")
 
 add_library(EmbeddedOs_library foo.cpp ${HEADER_LIST})
 
