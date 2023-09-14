@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.27)
+
 set(HEADER_LIST "../include/EmbeddedOs/foo.hpp")
 
 add_library(EmbeddedOs_library foo.cpp ${HEADER_LIST})
